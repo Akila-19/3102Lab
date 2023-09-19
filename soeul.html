@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seoul City</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    <section>
+        <a href="index.html">Back to Home Page</a>
+        <h1 class="text-center">WELCOME TO SOEUL CITY</h1>
+        <div class="topSection">
+            <div class="grid">
+                <div class="grid-item1"></div>
+                <div class="grid-item2"></div>
+                <div class="grid-item3"></div>
+                <div class="grid-item4"></div>
+                <div class="grid-item5"></div>
+                <div class="grid-item6"></div>
+                <div class="grid-item7"></div>
+                <div class="grid-item8"></div>
+              </div>
+        </div>
+    </section>
+    <section>
+        <div class="d-flex description p-3 justify-content-around">
+            <video width="1000" height="610" controls>
+                <source src="assets/videos/seoul.mp4" type="video/mp4">
+              </video>
+            <div class="desc text-wrap mt-5">
+                Seoul, the vibrant capital of South Korea, is a thrilling destination for tourists. This dynamic metropolis seamlessly blends modernity and tradition, offering visitors a diverse array of experiences. From its bustling markets and mouthwatering street food to its historic palaces and cutting-edge technology, Seoul promises an unforgettable journey into the heart of Korean culture and innovation.
+            </div>
+        </div>
+    </section>
+    <section style="margin-left: 430px;">
+        <form>
+            <h2 class="text-center">Please fill the form to book a plan</h2>
+            <div class="form-row">
+              <div class=" mb-3">
+                <label for="validationDefault01">First name</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+              </div>
+              <div class=" mb-3">
+                <label for="validationDefault02">Last name</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
+              </div>
+              <div class=" mb-3">
+                <label for="validationDefaultUsername">Username</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class=" mb-3">
+                <label for="validationDefault03">City</label>
+                <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+              </div>
+              <div class=" mb-3">
+                <label for="validationDefault04">State</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+              </div>
+              <div class=" mb-3">
+                <label for="validationDefault05">Zip</label>
+                <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Agree to terms and conditions
+                </label>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </form>
+    </section>
+</body>
+</html>
